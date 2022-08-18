@@ -1,1 +1,41 @@
+.nav-link{
+display: flex;
+text-decoration: none;
+color:black;
+padding:10px;
+border-color:#4d4e53;
+border: 1px solid;
+}
+@media only screen and(max-width:700px )
+{
+    #navbar{
+    top:0;
+    margin: 0;
+    }
+}
+#navbar{
+    display: block;
+    float: left;
+    position: absolute;
+    color: #4d4e53;
+    padding: 10px 30px;
+    top: 0;
+    left: 0;
+    border-right:solid;
+    border-color: #4d4e53;
+    max-width: 300px;
+}
+
+#main-doc{
+    float: left;
+    padding-left: 5em;
+    color: #4d4e53;
+    margin-left:310px;
+}
+.body{
+    display: flex;
+    justify-content:space-around;
+    min-width: 300px;
+    font-family: 'Open sans', Arial, Helvetica, sans-serif;
+}
 
